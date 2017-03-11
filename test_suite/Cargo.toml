@@ -13,6 +13,7 @@ rustc-serialize = "0.3.16"
 serde = { path = "../serde" }
 serde_derive = { path = "../serde_derive" }
 serde_test = { path = "../serde_test" }
+serde_json = "0.9"
 
 [dependencies]
 compiletest_rs = { version = "0.2", optional = true }

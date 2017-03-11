@@ -100,6 +100,7 @@ pub mod iter;
 pub mod ser;
 #[cfg_attr(feature = "std", doc(hidden))]
 pub mod error;
+pub mod roundtrip;
 mod utils;
 
 // Generated code uses these to support no_std. Not public API.
